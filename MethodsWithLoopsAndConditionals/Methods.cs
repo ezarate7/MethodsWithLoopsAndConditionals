@@ -49,7 +49,7 @@ namespace MethodsWithLoopsAndConditionals
             var userInput = int.Parse(Console.ReadLine());
             if(userInput == 0)
         }
-
+        //Write a method to check whether a given number is positive or negative.
         public static void IsPositiveOrNegative(int num)
         {
             if (num == 0)
@@ -70,7 +70,7 @@ namespace MethodsWithLoopsAndConditionals
             
 
         }
-
+        //Write a method to read the age of a candidate and determine whether they
         public static void VotingAge()
         {
             Console.WriteLine("Age Verification");
@@ -89,6 +89,37 @@ namespace MethodsWithLoopsAndConditionals
 
         }
 
+        //Write a method to check if an integer(from the user) is in the range -10 to 10.
+        public static void NumberRange()
+        {
+            Console.WriteLine("Enter in a number, and I will tell you if its in range");
+            var userInput = int.Parse(Console.ReadLine());
+
+            if (userInput <= 10 && userInput >= -10)
+            {
+                Console.WriteLine("Number is in range");
+            }
+            else
+            {
+                Console.WriteLine("number is not in range"); 
+            }
+            
+
+            
+
+        }
+
+
+        public static void MultTable(int num)
+        {
+            for (int i = 1; i <= 12; i++)
+            {
+                Console.WriteLine($"{i} x {num} = {num * i } ";
+            }
+        }
+    
+    
+    
     }
 
 

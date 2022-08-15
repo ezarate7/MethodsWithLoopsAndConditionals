@@ -13,6 +13,10 @@ Methods.IsPositiveOrNegative(122);
 
 Methods.VotingAge();
 
+Methods.NumberRange();
+
+Methods.MultTable(4);
+
 
 
 
